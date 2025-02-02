@@ -1,0 +1,175 @@
+/* Basic reset for padding and margins */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1c2139;
+}
+header{
+    /* background-color: #10121E; */
+    background: linear-gradient(45deg,#030304,#1c2139,#1b1b53);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 20px;
+    position: sticky;
+    width:100%;
+    top:0;
+    z-index: 1000;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: serif;
+    font-size: 58px;
+}
+header img{
+    width: 100x;
+    height: 100px;
+    text-decoration: none;
+
+}
+#title{
+    flex-grow: 1;
+    text-align: center;
+}
+nav{
+    /* background: linear-gradient(45deg,#030304,#1c2139,#1b1b53); */
+    background-color: #1c2139;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:10px 20px;
+    height: 50px;
+    position: sticky;
+    width:100%;
+    top:166.5px;
+    z-index: 1000;
+}
+
+nav a{
+    color: rgba(170, 174, 218, 0.822);
+    font-family: serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+main{
+    background-color: #1c2139; 
+    color:rgba(203, 204, 221, 0.907) ;
+    font-family: serif;
+    font-size: 20px;
+    }
+
+
+/* Style the form container */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 75%;
+}
+
+/* Style each form group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input field styling */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Styling the submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Add some space between form elements */
+.form-group + .form-group {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;  /* Dark background for the footer */
+    color: white;            /* White text color */
+    text-align: center;      /* Center-align the text in the footer */
+    padding: 20px 0;         /* Padding for top and bottom */
+    position: relative;      /* Position relative to stay at the bottom */
+    bottom: 0;               /* Ensure footer stays at the bottom */
+    width: 100%;             /* Ensure it spans the full width */
+    margin: 0;
+    padding: 5;
+}
+
+/* Footer links */
+footer a {
+    color: white;            /* White text color for the links */
+    text-decoration: none;   /* Remove underlines */
+    margin: 0 15px;          /* Space between links */
+    font-size: 1.1em;        /* Font size for footer links */
+}
+
+footer a:hover {
+    color: #ff6347;          /* Change color on hover (tomato red) */
+}
+
+/* Optional: Add a small copyright notice */
+footer .copyright {
+    font-size: 0.9em;        /* Smaller font size for copyright */
+    margin-top: 10px;        /* Space above the copyright */
+}
+
+
+
+.container{
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 20px;
+    width: 100x;
+    height: auto;
+    max-height: 70%;
+    
+}
+.pics{
+    width: 50%;
+    height: 50%;
+
+    text-decoration: none;
+}
+.about_text{
+    padding: 10px;
+    
+}
+input{
+    max-width: 96%;
+    left: 10px;
+}
